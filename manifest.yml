@@ -1,7 +1,7 @@
 applications:
-- name: BluemixSampleJJS
+- name: D3GearsSample
   memory: 512M
-  host: BluemixSampleJJS
+  host: D3GearsSample
   domain: mybluemix.net
   env: {
     }
