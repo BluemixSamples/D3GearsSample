@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <title>D3 Forces Example </title>
+<style type="text/css">
+        
+        #map-pane {
+        	position: absolute;
+            height: 100%
+        }
+        
+        #page-links {
+        	position: absolute;
+            height: 100%
+        }
+</style>
 <body>
+<div id=page-links>
 <p>
 <a href="GoogleMap.html">Google Map</a>
 <p>
 <a href="Gears.html">D3 Gears</a>
 <p>
-
+</div>
+<div id=map-pane>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 
@@ -126,3 +140,4 @@ function collide(alpha) {
 }
 
 </script>
+</div>
